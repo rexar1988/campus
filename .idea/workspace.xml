@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7d1fb80-c8be-4e47-862e-911985c7fafc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DrupalConfiguration" enabled="true" version="8">
+    <drupalPath>H:\Work\open-server\domains\blog.local</drupalPath>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/class-loader" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/stack/builder" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/typo3/phar-stream-wrapper" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony-cmf/routing" />
+      <path value="$PROJECT_DIR$/vendor/pear/console_getopt" />
+      <path value="$PROJECT_DIR$/vendor/pear/archive_tar" />
+      <path value="$PROJECT_DIR$/vendor/pear/pear-core-minimal" />
+      <path value="$PROJECT_DIR$/vendor/pear/pear_exception" />
+      <path value="$PROJECT_DIR$/vendor/drupal/core-project-message" />
+      <path value="$PROJECT_DIR$/vendor/drupal/core-composer-scaffold" />
+      <path value="$PROJECT_DIR$/vendor/drupal/core-vendor-hardening" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-feed" />
+      <path value="$PROJECT_DIR$/vendor/easyrdf/easyrdf" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1YWdPh7G9MJxPbME49Muq4fyw9y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.8.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles/app/blocks/main-nav" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Work\open-server\domains\blog.local\src\styles\app\blocks\main-nav" />
+      <recent name="H:\Work\open-server\domains\blog.local\src\styles\app\blocks\header" />
+      <recent name="H:\Work\open-server\domains\blog.local" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Work\open-server\domains\blog.local\src\styles\app\blocks\main-nav" />
+      <recent name="H:\Work\open-server\domains\blog.local\src\styles\app\blocks\header\img" />
+      <recent name="H:\Work\open-server\domains\blog.local\src\styles\app\blocks\header" />
+      <recent name="H:\Work\open-server\domains\blog.local\src" />
+      <recent name="H:\Work\open-server\domains\blog.local\src\styles" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7d1fb80-c8be-4e47-862e-911985c7fafc" name="Default Changelist" comment="" />
+      <created>1583062262179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583062262179</updated>
+      <workItem from="1583062264231" duration="2582000" />
+      <workItem from="1583070819231" duration="161000" />
+      <workItem from="1583071023164" duration="168000" />
+      <workItem from="1583071425886" duration="2643000" />
+      <workItem from="1583083763707" duration="8490000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="873" y="359" key="#Composer" timestamp="1583066670733">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="359" key="#Composer/0.0.2560.1400@0.0.2560.1400" timestamp="1583066670733" />
+    <state x="873" y="359" key="#Drupal" timestamp="1583066683973">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="359" key="#Drupal/0.0.2560.1400@0.0.2560.1400" timestamp="1583066683973" />
+    <state x="873" y="359" key="#Usage_Scope" timestamp="1583078108024">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="359" key="#Usage_Scope/0.0.2560.1400@0.0.2560.1400" timestamp="1583078108024" />
+    <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1583066683196">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="442" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1583066683196" />
+    <state width="1342" height="259" key="GridCell.Tab.0.bottom" timestamp="1583079755192">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="259" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583079755192" />
+    <state width="1342" height="259" key="GridCell.Tab.0.center" timestamp="1583079755192">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="259" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583079755192" />
+    <state width="1342" height="259" key="GridCell.Tab.0.left" timestamp="1583079755192">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="259" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583079755192" />
+    <state width="1342" height="259" key="GridCell.Tab.0.right" timestamp="1583079755192">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="259" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583079755192" />
+    <state x="782" y="343" key="SettingsEditor" timestamp="1583078121228">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="782" y="343" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1583078121228" />
+    <state x="981" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1583062266194">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="981" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583062266194" />
+  </component>
+</project>

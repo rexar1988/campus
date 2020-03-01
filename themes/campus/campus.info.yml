@@ -1,0 +1,18 @@
+name: Campus
+type: theme
+description: Сайт для компании АистПринт
+core: 8.x
+screenshot: screenshot.png
+libraries:
+  - campus/global-styling
+
+regions:
+  messages: "Сообщения"
+  header: "Шапка"
+  nav: "Навигация"
+  title: "Заголовок"
+  sidebar: "Сайдбар"
+  front_page: "Главная страница"
+  content: "Контент"
+  footer: "Подвал: Левая часть"
+  modal: "Модальные окна"

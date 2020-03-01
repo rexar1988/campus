@@ -1,0 +1,45 @@
+@import "../config";
+@import "../mixins/media";
+
+@mixin containers ($key, $size) {
+  @if ($key == main) {
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+      width: $size;
+    }
+
+    @if ($containerResponseBreakpoint != null) {
+      @include media($size){
+        .container {
+          padding-left: $containerResponsePadding;
+          padding-right: $containerResponsePadding;
+          width: 100%;
+        }
+      }
+    }
+  }
+  @else {
+    .container--#{$key}{
+      margin-left: auto;
+      margin-right: auto;
+      width: $size;
+    }
+
+    @if ($containerResponseBreakpoint != null) {
+      @include media($size){
+        .container--#{$key}{
+          padding-left: $containerResponsePadding;
+          padding-right: $containerResponsePadding;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@mixin absolute-content ($symbol: "") {
+  content: $symbol;
+  display: block;
+  position: absolute;
+}

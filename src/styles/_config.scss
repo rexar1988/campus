@@ -1,0 +1,60 @@
+/* Folders
+======================================================================================================================*/
+$fontsFolder: "../../fonts";
+
+/* Embedded Fonts
+======================================================================================================================*/
+
+// Font Marking
+// 100: Thin, Hairline
+// 200: Extra Light, Ultra Light
+// 300: Light
+// 400 (normal): Normal
+// 500: Medium
+// 600: SemiBold
+// 700 (bold): Bold
+// 800: Extra Bold, Ultra Bold
+// 900: Black, Heavy
+
+$font1: "Lato";
+$font2: "Rubik";
+
+$fonts:(
+  Lato-Hairline: ($font1, "#{$fontsFolder}/#{$font1}/Hairline/#{$font1}-Hairline", 100, normal),
+  Lato-Thin: ($font1, "#{$fontsFolder}/#{$font1}/Thin/#{$font1}-Thin", 200, normal),
+  Lato-Light: ($font1, "#{$fontsFolder}/#{$font1}/Light/#{$font1}-Light", 300, normal),
+  Lato-Regular: ($font1, "#{$fontsFolder}/#{$font1}/Regular/#{$font1}-Regular", 400, normal),
+  Lato-Italic: ($font1, "#{$fontsFolder}/#{$font1}/Italic/#{$font1}-Italic", 400, italic),
+  Lato-Medium: ($font1, "#{$fontsFolder}/#{$font1}/Medium/#{$font1}-Medium", 500, normal),
+  Lato-Semibold: ($font1, "#{$fontsFolder}/#{$font1}/Semibold/#{$font1}-Semibold", 600, normal),
+  Lato-Bold: ($font1, "#{$fontsFolder}/#{$font1}/Bold/#{$font1}-Bold", 700, normal),
+  Lato-Heavy: ($font1, "#{$fontsFolder}/#{$font1}/Heavy/#{$font1}-Heavy", 800, normal),
+  Lato-Black: ($font1, "#{$fontsFolder}/#{$font1}/Black/#{$font1}-Black", 900, normal)
+);
+
+/* Containers
+======================================================================================================================*/
+
+// eq. main: .container
+// eq. xl: .container--xl
+$containers: (
+  main: 1170px,
+  xl: 1440px,
+  lg: 1280px,
+  md: 980px,
+  sm: 768px,
+);
+
+$containerResponseBreakpoint: 1200px;
+$containerResponsePadding: 15px;
+
+/* Default styles
+======================================================================================================================*/
+$fontFamilyDefault: $font1;
+$fontSizeDefault: 14px;
+$defaultFonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+$defaultMonospaceFonts: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$bodyBgDefault: #fff;
+$colorDefault: false;
+$colorLinkDefault: #2e5bff;
+$disableFormControlsDefaultStyles: true;

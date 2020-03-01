@@ -1,0 +1,36 @@
+.layout__header {
+  .region-header {
+    height: 90px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 130px auto;
+
+    .site-branding {
+      margin-right: 30px;
+    }
+
+    .header__nav {
+      ul.menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+        li.menu__item {
+          margin-right: 10px;
+
+          a {
+            color: #333333;
+            font: {
+              size: 16px;
+              weight: 600;
+            };
+          }
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
