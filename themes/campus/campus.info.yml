@@ -10,7 +10,6 @@ regions:
   messages: "Сообщения"
   header: "Шапка"
   nav: "Навигация"
-  title: "Заголовок"
   sidebar: "Сайдбар"
   front_page: "Главная страница"
   content: "Контент"

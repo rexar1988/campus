@@ -77,10 +77,6 @@
       {{ page.front_page }}
     </main>
   {% else %}
-    {% if page.title %}
-      <section class="page-title">{{ page.title }}</section>
-    {% endif %}
-
     {% if page.messages|render|striptags %}
       {{ page.messages }}
     {% endif %}

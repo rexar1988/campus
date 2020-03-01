@@ -5,8 +5,8 @@
 @import "./app/blocks/main-nav/main-nav.media";
 
 // Pages
-@import "app/pages/home/home.desktop";
-@import "app/pages/admin/desktop";
+@import "./app/pages/blog/blog.desktop";
+@import "./app/pages/blog/blog.media";
 
 // Shared
 @import "app/shared/buttons";
