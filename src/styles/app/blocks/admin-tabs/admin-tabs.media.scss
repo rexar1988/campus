@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px){
+  .admin-tabs {
+    ul {
+      border-bottom: 1px solid #bbb;
+
+      li {
+        display: block;
+        margin: 0;
+
+        &.is-active{
+          a {
+            border-bottom: none;
+          }
+        }
+
+        a {
+          padding: 5px 10px;
+        }
+      }
+    }
+  }
+}

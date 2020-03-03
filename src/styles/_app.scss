@@ -3,10 +3,14 @@
 @import "./app/blocks/header/header.media";
 @import "./app/blocks/main-nav/main-nav.desktop";
 @import "./app/blocks/main-nav/main-nav.media";
+@import "./app/blocks/admin-tabs/admin-tabs.desktop";
+@import "./app/blocks/admin-tabs/admin-tabs.media";
 
 // Pages
 @import "./app/pages/blog/blog.desktop";
 @import "./app/pages/blog/blog.media";
+@import "./app/pages/blog-detail/blog-detail.desktop";
+@import "./app/pages/blog-detail/blog-detail.media";
 
 // Shared
 @import "app/shared/buttons";

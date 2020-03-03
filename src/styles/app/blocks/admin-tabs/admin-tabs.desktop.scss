@@ -1,0 +1,82 @@
+.region-messages {
+  .messages {
+    margin: 50px 0;
+  }
+}
+
+.admin-tabs {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #bbb;
+
+  .content{
+    ul{
+      font-family: "Roboto-Regular", sans-serif;
+      display: flex;
+      list-style: none;
+      flex-wrap: wrap;
+
+      &.secondary {
+        border-bottom: none;
+        margin: 5px;
+        padding: 0.5em 0;
+        overflow: hidden;
+
+        li{
+          border-right: 1px solid #ccc;
+          display: block;
+          margin: 0;
+          padding: 0 1em;
+
+          &:first-child {
+            padding-left: 0;
+          }
+
+          &:last-child{
+            border-right: none;
+          }
+
+          a{
+            display: inline;
+            padding: 0.25em 0.5em;
+            text-decoration: none;
+
+            &.is-active{
+              background: #f2f2f2;
+              border-bottom: none;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+
+      li{
+        float: left;
+
+        &.is-active{
+          a{
+            background-color: #ffffff;
+            border: 1px solid #bbb;
+          }
+        }
+
+        a{
+          color: #000;
+          background-color: #ededed;
+          border-color: #bbb;
+          border-style: solid solid none solid;
+          border-width: 1px;
+          height: 1.8em;
+          line-height: 1.9;
+          display: block;
+          font-size: 14px;
+          padding: 0 10px 3px;
+          text-shadow: 0 1px 0 #fff;
+
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

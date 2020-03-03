@@ -70,15 +70,19 @@
 
   {% if is_front %}
     <main role="main" class="layout__page">
-      {% if page.messages %}
-        {{ page.messages }}
-      {% endif %}
+      <div class="container">
+        {% if page.messages %}
+          {{ page.messages }}
+        {% endif %}
+      </div>
 
       {{ page.front_page }}
     </main>
   {% else %}
     {% if page.messages|render|striptags %}
-      {{ page.messages }}
+      <div class="container">
+        {{ page.messages }}
+      </div>
     {% endif %}
 
     <main role="main" class="layout__page">
