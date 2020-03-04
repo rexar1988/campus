@@ -13,5 +13,6 @@ regions:
   sidebar: "Сайдбар"
   front_page: "Главная страница"
   content: "Контент"
-  footer: "Подвал: Левая часть"
+  footer_left: "Подвал: Левая часть"
+  footer_right: "Подвал: Правая часть"
   modal: "Модальные окна"

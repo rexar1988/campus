@@ -79,12 +79,6 @@
       {{ page.front_page }}
     </main>
   {% else %}
-    {% if page.messages|render|striptags %}
-      <div class="container">
-        {{ page.messages }}
-      </div>
-    {% endif %}
-
     <main role="main" class="layout__page">
       {% if page.sidebar %}
         <div class="layout__sidebar">
@@ -92,14 +86,21 @@
         </div>
       {% endif %}
       <div class="layout__content">
+        {% if page.messages|render|striptags %}
+          <div class="container">
+            {{ page.messages }}
+          </div>
+        {% endif %}
+
         {{ page.content }}
       </div>
     </main>
   {% endif %}
 
   <footer role="contentinfo" class="layout__footer">
-    <div class="container">
-      {{ page.footer }}
+    <div class="container layout__footer-content">
+      {{ page.footer_left }}
+      {{ page.footer_right }}
     </div>
   </footer>
 
